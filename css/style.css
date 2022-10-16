@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/** INDEX */
+
+
+
+
+
+.barra-top{
+    height: 50px;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+    font-size: x-large;
+    padding-left: 10px;
+}
+
+.barra-top a{
+    color: white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.barra-top-vzla{
+    width: 100%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+
+.fondo-barra-nav{
+    position: relative;
+    top: 50px;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
+.barraDe{
+    padding-top: 1%;
+    top: 5%;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(63, 74, 95, 0.322);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.barraDe li:hover{
+    scale: 1.1;
+}
+
+.barraDe a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+header nav{
+    text-decoration: none;
+    width: 100%;
+}
+
+
+
+
+
+
+/*-------MAIN------*/
+
+.primer-titulo{
+    transition: 2s;
+    top: 50px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    height: 700px;
+    width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/logo-gochomusic-blanco-sin-fondo.png");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient();
+    flex-direction: column;
+    border: solid black;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.322); 
+    box-shadow: -10px 0px 13px -7px #ffffff, 10px 0px 13px -7px #ffffff, 10px 11px 20px 20px rgba(255, 255, 255, 0.43);
+    border-radius: 10PX;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.segundo-contenedor{
+    margin-top: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(157, 163, 175);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    }
+
+.segundo-contenedor p{
+    margin: 10%;
+}
+
+.segundo-contenedor-interno{
+    border-radius: 0px 100px 0px 100px;
+    color: white;
+    background-color: black;
+    width: 70%;
+    box-shadow: -10px 0px 30px -7px #727171, 10px 0px 30px -7px #727171, 10px 11px 50px 50px rgba(255, 255, 255, 0.43);
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+
+.segundo-contenedor-interno h3{
+    text-align: center;
+}
+
+.segundo-contenedor-interno p{
+    text-align: center;
+}
+section h1{
+    text-align: center;
+    color: white;
+    
+}
+
+section h2{
+    text-align: center;
+    color: white;
+    
+}
+/*--------FOTEER-------*/
+
+.seccionrrss{
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(44, 43, 43);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". title ."
+    "inst tw fb"
+    ".texto ."
+    ;
+}
+
+.inst{
+    grid-area: inst;
+}
+
+.fb{
+    grid-area: fb;
+}
+
+.tw{
+    grid-area: tw;
+}
+
+.rrss-instagram{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(44, 43, 43);
+    border: solid 4px black;
+    padding: 15px;
+
+
+}
+
+
+
+
+.seccionrrss h3{
+    color: white;
+    grid-area: title;
+    padding-top: 25px;
+}
+
+.rrss-twitter{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(44, 43, 43);
+    border: solid 4px black;
+    padding: 15px;
+
+}
+
+.rrss-facebook{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    justify-content: space-between;
+    background-color: rgb(44, 43, 43);
+    border: solid 4px black;
+    padding: 15px;
+
+}
+
+
+
+.seccionrrss a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+
+.seccionrrss p{
+    padding-top: 25px;
+    color: white;
+    grid-area: texto;
+    font-size: larger;
+}
+
+
+.wicon{
+    z-index: 1;
+    position: fixed;
+    right: 1%;
+    bottom: 4%;
+    transition: 0.5s;
+}
+
+.wicon:hover{
+    transform: scale(1.3);
+}
+
+
+@media screen and (max-width:500px) {
+    .barraDe{
+        flex-direction: column;
+        background-color: black;
+    }
+    .primer-titulo{
+        font-size: 15px;
+    }
+    .barra-top h2{
+        font-size: 20px;
+    }
+    .rrss-facebook{
+        width: 70px;
+        height: 70px;
+    }
+    .rrss-instagram{
+        width: 70px;
+        height: 70px;
+    }
+    .rrss-twitter{
+        width: 70px;
+    height: 70px;
+    }
+}
+
+/** DOCUMENTO TOP 100 */
+
+.contenedor-topcien{
+    width: 100%;
+    height: 2000px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.contenedor-interno-topcien{
+    background-image: url(../img/top100.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 80%;
+    background-color: gray;
+    color: white;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+    }
+
+/* DOCUMENTO ARTISTAS EN PROMOCION */
+
+.primer-contenedor-artistas{
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". art1 txt1 txt1"
+    ". art2 txt2 txt2"
+    ". art3 txt3 txt3"
+    ". art4 txt4 txt4"
+    ". art5 txt5 txt5";
+    gap: 50px;
+    padding-bottom: 5%;
+}
+
+.primer-contenedor-artistas div{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(252, 252, 252);
+}
+
+.art1{
+    grid-area: art1;
+    border-radius: 0px 50px 0px 50px;
+    border: solid gray 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sixtorein.png");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient();
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:70PX;
+    box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+}
+
+.texto-artista-1{
+    display: flex;
+    align-items: center;
+    grid-area: txt1;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.art2{
+    grid-area: art2;
+    border-radius: 0px 50px 0px 50px;
+    border: solid gray 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/aranonepng.png");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient();
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:70PX;
+    box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+}
+
+.texto-artista-2{
+    display: flex;
+    align-items: center;
+    grid-area: txt2;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.art3{
+    grid-area: art3;
+    border-radius: 0px 50px 0px 50px;
+    border: solid gray 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/potroalvarez.jpg");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient();
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+}
+
+
+.texto-artista-3{
+    display: flex;
+    align-items: center;
+    grid-area: txt3;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.art4{
+    grid-area: art4;
+    border-radius: 0px 50px 0px 50px;
+    border: solid gray 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/gustavoelispng.png");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient();
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:70PX;
+    box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+}
+
+.texto-artista-4{
+    display: flex;
+    align-items: center;
+    grid-area: txt4;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.art5{
+    grid-area: art5;
+    border-radius: 0px 50px 0px 50px;
+    border: solid gray 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/xuxo.png");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient();
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:70PX;
+    box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+}
+
+.texto-artista-5{
+    display: flex;
+    align-items: center;
+    grid-area: txt5;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 990px) {
+    .primer-contenedor-artistas div{
+        width: 300px;
+        height: 400px;
+        font-size: 20px;
+        
+    }
+
+    .primer-contenedor-artistas{
+        flex-direction: column;
+
+        
+        
+        
+        ;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .primer-contenedor-artistas{
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10fr;
+    grid-template-areas: 
+    "art1"
+    "txt1"    
+    "art2"
+    "txt2"
+    "art3"
+    "txt3"
+    "art4"
+    "txt4"
+    "art5"
+    "txt5";
+
+}
+
+.primer-contenedor-artistas div{
+    width: 80%;
+    height: 500px;
+    font-size: 50px;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 10%;
+
+}
+}
+/** DOCUMENTO DEMO **/
+
+.img-demo{
+    margin-top: 100px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 180px;
+    height:1000px;
+    border-radius: 0px 75px 0px 75px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/estudiomusical.jpg");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient();
+    object-fit: contain;
+    color: white;
+    border: solid white 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .img-demo h4{
+        font-size: 180px;
+    }
+
+
+
+.contenedor-img-demo-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-demo-2{
+    flex-direction: column;
+    border: solid white 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 600px;
+    margin: 20px;
+    background-image: url(../img/chico-cantando.jpg);
+    background-repeat: no-repeat;
+    padding-left: 20%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(33, 47, 61);
+    border-radius: 0px 75px 0px 75px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-demo-2 p{
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 30%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-demo-2 h5{
+    margin-left: 30%;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.img-demo p{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contenedor-demo{
+    width: 100%;
+    height: 2300px;
+    background-color: black;
+
+}
+
+.formulario-contacto-demo{
+    height: 450px;
+    border: solid white 4px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    padding-top: 10px;
+    font-size: xx-large;
+    margin-right: 50px;
+    border-radius: 75px 0px 75px 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex-formulario{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.form-label{
+    font-size: 35px;
+    color: black;
+}
+
+@media screen and (max-width: 1860px) {
+    .contenedor-demo h4{
+        font-size: 70px;
+    }
+    .contenedor-demo p{
+        font-size: 40px
+    }
+    .contenedor-demo h5{
+        font-size: 40px;
+        padding-top: 2%;
+    }
+    .img-demo-2 p{
+        font-size: 30px;
+    }
+    .form-label{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 863px) {
+    .img-demo-2 h5{
+        margin-left: 0%;
+        margin-right: 20%;
+    }
+
+    .img-demo-2 p{
+        margin-left: 0%;
+        margin-right: 20%;
+    }
+    .flex-contacto-demo{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .img-demo{
+        border-radius: 0%;
+        width: 90%;
+    }
+    .img-demo-2{
+        border-radius: 0%;
+    }
+    .contenedor-demo h4{
+        font-size: 30px;
+    }
+    .contenedor-demo p{
+        font-size: 20px
+    }
+    .contenedor-demo h5{
+        font-size: 30px;
+        padding-top: 2%;
+    }
+    .img-demo-2 p{
+        font-size: 20px;
+    }
+    .formulario-contacto-demo{
+        width: 100%;
+        border-radius: 0%;
+        margin-right: 0%;
+    }
+
+}
+/** DOCUMENTO EQUIPO **/
+
+
+.contenedor-equipo{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor-grid-equipo{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;    
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis"
+    ;
+    gap: 40px;
+}
+
+
+.contenedor-grid-equipo div{
+    border-radius: 0px 75px 0px 75px;
+    background-image: url(../img/Ejecutivo-de-ventas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-size: 50px;
+    border: solid rgb(37, 32, 58) 10px;
+}
+
+.contenedor-grid-equipo div h4{
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor-interno-equipo-1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    grid-area: uno;
+    
+}
+
+.contenedor-interno-equipo-2{
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    grid-area: dos;
+}
+
+.contenedor-interno-equipo-3{
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    grid-area: tres;
+}
+
+.contenedor-interno-equipo-4{
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    grid-area: cuatro;
+}
+
+.contenedor-interno-equipo-5{
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    grid-area: cinco;
+}
+
+.contenedor-interno-equipo-6{
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    grid-area: seis;
+}
+
+@media screen and (max-width: 1440px) {
+    .contenedor-grid-equipo{
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        grid-template-areas: 
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco"
+        "seis"
+        ;
+}
+}
+@media screen and (max-width: 500px) {
+    .contenedor-grid-equipo div{
+        height: 350px;
+        width: 300px;
+        border-radius: 0%;
+    }
+
+    .contenedor-interno-equipo-1{
+        margin-top: 25%;
+    }
+    .contenedor-interno-equipo-6{
+        margin-bottom: 25%;
+    }
+}
