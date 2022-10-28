@@ -1,0 +1,71 @@
+/* ---- MAIN --*/
+
+main{
+    .primer-titulo{
+        transition: 2s;
+        top: 50px;
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        height: 700px;
+        width: 100%;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:50px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/logo-gochomusic-blanco-sin-fondo.png");
+        background-size: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient();
+        flex-direction: column;
+        border: solid black;
+        h1{
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.322); 
+            box-shadow: -10px 0px 13px -7px #ffffff, 10px 0px 13px -7px #ffffff, 10px 11px 20px 20px rgba(255, 255, 255, 0.43);
+            border-radius: 10PX;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    .segundo-contenedor{
+        margin-top: 50px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+        background-color: rgb(157, 163, 175);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        .segundo-contenedor-interno{
+            border-radius: 0px 100px 0px 100px;
+            color: white;
+            background-color: black;
+            width: 70%;
+            box-shadow: -10px 0px 30px -7px #727171, 10px 0px 30px -7px #727171, 10px 11px 50px 50px rgba(255, 255, 255, 0.43);
+            padding-top: 50px;
+            padding-bottom: 50px;
+            margin-bottom: 30px;
+            h3{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                margin: 20PX;
+            }
+        }
+    }
+    .wicon{
+        z-index: 1;
+        position: fixed;
+        right: 1%;
+        bottom: 4%;
+        transition: 0.5s;
+        &{
+            transform: scale(1.3);
+        }
+    }
+}

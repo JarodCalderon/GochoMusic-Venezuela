@@ -1,0 +1,149 @@
+/*--ARTISTAS EN PROMOCION --*/
+
+.primer-contenedor-artistas{
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". art1 txt1 txt1"
+    ". art2 txt2 txt2"
+    ". art3 txt3 txt3"
+    ". art4 txt4 txt4"
+    ". art5 txt5 txt5";
+    gap: 50px;
+    padding-bottom: 5%;
+    div{
+        width: 500px;
+        height: 600px;
+        background-color: rgb(252, 252, 252);
+        ;
+    }
+    .art1{
+        grid-area: art1;
+        border-radius: 0px 50px 0px 50px;
+        border: solid gray 5px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sixtorein.png");
+        background-size: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient();
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:70PX;
+        box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+    }
+    .texto-artista-1{
+        display: flex;
+        align-items: center;
+        grid-area: txt1;
+        color: white;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .art2{
+        grid-area: art2;
+        border-radius: 0px 50px 0px 50px;
+        border: solid gray 5px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/aranonepng.png");
+        background-size: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient();
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:70PX;
+        box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+    }
+    .texto-artista-2{
+        display: flex;
+        align-items: center;
+        grid-area: txt2;
+        color: white;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .art3{
+        grid-area: art3;
+        border-radius: 0px 50px 0px 50px;
+        border: solid gray 5px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/potroalvarez.jpg");
+        background-size: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient();
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 70px;
+        text-align: center;
+        box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+    }
+    .texto-artista-3{
+        display: flex;
+        align-items: center;
+        grid-area: txt3;
+        color: white;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .art4{
+        grid-area: art4;
+        border-radius: 0px 50px 0px 50px;
+        border: solid gray 5px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/gustavoelispng.png");
+        background-size: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient();
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:70PX;
+        box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+    }
+    .texto-artista-4{
+        display: flex;
+        align-items: center;
+        grid-area: txt4;
+        color: white;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .art5{
+        grid-area: art5;
+        border-radius: 0px 50px 0px 50px;
+        border: solid gray 5px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/xuxo.png");
+        background-size: 100%;
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient();
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:70PX;
+        box-shadow: -10px 0px 13px -7px #ffffff88, 10px 0px 13px -7px #ffffff91, 10px 11px 20px 20px rgba(255, 255, 255, 0.315);
+    }
+    .texto-artista-5{
+        display: flex;
+        align-items: center;
+        grid-area: txt5;
+        color: white;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+}

@@ -1,0 +1,79 @@
+/** --- NUESTRO EQUIPO ---**/
+
+.contenedor-equipo{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    .contenedor-grid-equipo{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;    
+        grid-template-areas: 
+        "uno dos tres"
+        "cuatro cinco seis"
+        ;
+        gap: 40px;
+        div{
+            border-radius: 0px 75px 0px 75px;
+            background-image: url(../img/Ejecutivo-de-ventas.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            font-size: 50px;
+            border: solid rgb(37, 32, 58) 10px;
+            h4{
+                background-color: rgba(0, 0, 0, 0.678);
+                width: 100%;
+                color: white;
+                text-align: center;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+        .contenedor-interno-equipo-1{
+            background-color: white;
+            width: 450px;
+            height: 500px;
+            grid-area: uno;
+        
+        }
+        .contenedor-interno-equipo-2{
+            background-color: white;
+            width: 450px;
+            height: 500px;
+            grid-area: dos;
+        }    
+        .contenedor-interno-equipo-3{
+            background-color: white;
+            width: 450px;
+            height: 500px;
+            grid-area: tres;
+        }
+        .contenedor-interno-equipo-4{
+            background-color: white;
+            width: 450px;
+            height: 500px;
+            grid-area: cuatro;
+        }
+        .contenedor-interno-equipo-5{
+            background-color: white;
+            width: 450px;
+            height: 500px;
+            grid-area: cinco;
+        }
+        .contenedor-interno-equipo-6{
+            background-color: white;
+            width: 450px;
+            height: 500px;
+            grid-area: seis;
+            margin-bottom: 25%;
+        }
+    }
+}
