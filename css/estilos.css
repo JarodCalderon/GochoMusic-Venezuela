@@ -582,5 +582,5 @@ footer .seccionrrss {
 
 @media screen and (max-width: 500px) {
   .contenedor-interno-topcien {
-    font-size: 10px;
+    font-size: 10px !important;
     text-align: center; } }
