@@ -1,42 +1,25 @@
-@media screen and (max-width:500px) {
-    .barraDe{
-        flex-direction: column;
-        background-color: black;
+@media screen and (max-width: 1390px) {
+        
+    .contenedor-demo h4{
+        font-size: 70px;
     }
-    .primer-titulo h1{
+    .contenedor-demo p{
+        font-size: 40px;
+    }
+    .contenedor-demo h5{
+        font-size: 30px;
+        padding-top: 2%;
+    }
+    .img-demo-2 p{
+        font-size: 30px;
+    }
+    .form-label{
         font-size: 25px;
     }
-    .barra-top h2{
-        font-size: 20px;
-    }
-    .rrss-facebook{
-        width: 70px;
-        height: 70px;
-    }
-    .rrss-instagram{
-        width: 70px;
-        height: 70px;
-    }
-    .rrss-twitter{
-        width: 70px;
-    height: 70px;
-    }
-    
 }
 
-@media screen and (max-width: 990px) {
-    .primer-contenedor-artistas div{
-        width: 300px;
-        height: 400px;
-        font-size: 20px;
-    }
 
-    .primer-contenedor-artistas{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1190px) {
     .primer-contenedor-artistas{
     justify-content: center;
     align-items: center;
@@ -55,35 +38,31 @@
     "txt5";
 
 }
-.primer-contenedor-artistas div {
+
+.primer-contenedor-artistas div{
     width: 80%;
-    height: 400px;
+    height: 500px;
     font-size: 50px;
 background-repeat: no-repeat;
 background-size: cover;
 margin-left: 10%;
-text-align: center;
 
 }
 }
 
-@media screen and (max-width: 1860px) {
-    .contenedor-demo h4{
-        font-size: 70px;
-    }
-    .contenedor-demo p{
-        font-size: 40px
-    }
-    .contenedor-demo h5{
-        font-size: 40px;
-        padding-top: 2%;
-    }
-    .img-demo-2 p{
-        font-size: 30px;
-    }
-    .form-label{
-        font-size: 25px;
-    }
+@media screen and (max-width: 1125px) {
+    .contenedor-grid-equipo{
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        grid-template-areas: 
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "cinco"
+        "seis"
+        ;
+}
 }
 
 @media screen and (max-width: 863px) {
@@ -130,26 +109,36 @@ text-align: center;
 
 }
 
-@media screen and (max-width: 1440px) {
-    .contenedor-grid-equipo{
-        grid-template-columns: 1fr;
-        grid-template-rows: 6fr;
-        grid-template-areas: 
-        "uno"
-        "dos"
-        "tres"
-        "cuatro"
-        "cinco"
-        "seis"
-        ;
-}
-}
+
+
 @media screen and (max-width: 500px) {
+	.barraDe{
+        flex-direction: column;
+        background-color: black;
+    }
+    .primer-titulo{
+        font-size: 15px;
+    }
+    .barra-top h2{
+        font-size: 20px;
+    }
+    .rrss-facebook{
+        width: 70px;
+        height: 70px;
+    }
+    .rrss-instagram{
+        width: 70px;
+        height: 70px;
+    }
+    .rrss-twitter{
+        width: 70px;
+    height: 70px;
+    }
+
     .contenedor-grid-equipo div{
         height: 350px;
         width: 300px;
         border-radius: 0%;
-        
     }
 
     .contenedor-interno-equipo-1{
@@ -160,9 +149,19 @@ text-align: center;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .contenedor-interno-topcien{
-        font-size: 10px !important; 
-        text-align: center;
+@media screen and (max-width:500px) {
+    
+}
+
+
+@media screen and (max-width: 400px) { 
+    .primer-contenedor-artistas div{
+        width: 300px;
+        height: 400px;
+        font-size: 20px;
+    }
+
+    .primer-contenedor-artistas{
+        flex-direction: column;
     }
 }

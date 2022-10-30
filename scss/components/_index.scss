@@ -1,4 +1,5 @@
 /* ---- MAIN --*/
+@import "../base/variables";
 
 main{
     .primer-titulo{
@@ -15,13 +16,13 @@ main{
         font-size:50px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/logo-gochomusic-blanco-sin-fondo.png");
         background-size: 100%;
-        background-color: rgb(0, 0, 0);
+        background-color: $color-principal;
         background-image: linear-gradient();
         flex-direction: column;
         border: solid black;
         h1{
             text-align: center;
-            color: white;
+            color: $color-terciario;
             background-color: rgba(0, 0, 0, 0.322); 
             box-shadow: -10px 0px 13px -7px #ffffff, 10px 0px 13px -7px #ffffff, 10px 11px 20px 20px rgba(255, 255, 255, 0.43);
             border-radius: 10PX;
@@ -42,8 +43,8 @@ main{
         font-size: xx-large;
         .segundo-contenedor-interno{
             border-radius: 0px 100px 0px 100px;
-            color: white;
-            background-color: black;
+            color: $color-terciario;
+            background-color: $color-principal;
             width: 70%;
             box-shadow: -10px 0px 30px -7px #727171, 10px 0px 30px -7px #727171, 10px 11px 50px 50px rgba(255, 255, 255, 0.43);
             padding-top: 50px;
