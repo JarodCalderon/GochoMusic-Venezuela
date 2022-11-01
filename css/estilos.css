@@ -103,7 +103,6 @@ main .primer-titulo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/logo-gochomusic-blanco-sin-fondo.png");
   background-size: 100%;
   background-color: black;
-  background-image: linear-gradient();
   flex-direction: column;
   border: solid black; }
   main .primer-titulo h1 {
@@ -546,16 +545,18 @@ footer .seccionrrss {
   height: 400px; }
 
 @media screen and (max-width: 1390px) {
-  .contenedor-demo h4 {
+  .contenedor-demo .contenedor-img-demo-2 .img-demo h4 {
     font-size: 70px; }
-  .contenedor-demo p {
+  .contenedor-demo .contenedor-img-demo-2 .img-demo p {
     font-size: 40px; }
-  .contenedor-demo h5 {
+  .contenedor-demo .img-demo-2 h5 {
     font-size: 30px;
-    padding-top: 2%; }
-  .img-demo-2 p {
-    font-size: 30px; }
-  .form-label {
+    padding-top: 2%;
+    background-color: rgba(0, 0, 0, 0.315); }
+  .contenedor-demo .img-demo-2 p {
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.315); }
+  .contenedor-demo .flex-formulario .formulario-contacto-demo .form-label {
     font-size: 25px; } }
 
 @media screen and (max-width: 1190px) {
@@ -574,37 +575,39 @@ footer .seccionrrss {
     margin-left: 10%; } }
 
 @media screen and (max-width: 1125px) {
-  .contenedor-grid-equipo {
+  .contenedor-equipo .contenedor-grid-equipo {
     grid-template-columns: 1fr;
     grid-template-rows: 6fr;
     grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis"; } }
 
 @media screen and (max-width: 863px) {
-  .img-demo-2 h5 {
+  .contenedor-demo .img-demo-2 h5 {
     margin-left: 0%;
     margin-right: 20%; }
-  .img-demo-2 p {
+  .contenedor-demo .img-demo-2 p {
     margin-left: 0%;
     margin-right: 20%; }
-  .flex-contacto-demo {
-    width: 80%; } }
+  .contenedor-demo .flex-formulario .formulario-contacto-demo {
+    width: 85%;
+    text-align: center;
+    border-radius: 0%; } }
 
 @media screen and (max-width: 760px) {
-  .img-demo {
+  .contenedor-demo .contenedor-img-demo-2 .img-demo {
     border-radius: 0%;
     width: 90%; }
-  .img-demo-2 {
+  .contenedor-demo .img-demo-2 {
     border-radius: 0%; }
-  .contenedor-demo h4 {
+  .contenedor-demo .contenedor-img-demo-2 .img-demo h4 {
     font-size: 30px; }
-  .contenedor-demo p {
+  .contenedor-demo .contenedor-img-demo-2 .img-demo p {
     font-size: 20px; }
-  .contenedor-demo h5 {
-    font-size: 30px;
+  .contenedor-demo .img-demo-2 h5 {
+    font-size: 20px;
     padding-top: 2%; }
-  .img-demo-2 p {
-    font-size: 20px; }
-  .formulario-contacto-demo {
+  .contenedor-demo .img-demo-2 p {
+    font-size: 15px; }
+  .contenedor-demo .flex-formulario .formulario-contacto-demo {
     width: 100%;
     border-radius: 0%;
     margin-right: 0%; } }
@@ -613,17 +616,17 @@ footer .seccionrrss {
   .barraDe {
     flex-direction: column;
     background-color: black; }
-  .primer-titulo {
+  main .primer-titulo {
     font-size: 15px; }
   .barra-top h2 {
     font-size: 20px; }
-  .rrss-facebook {
+  footer .seccionrrss .rrss-facebook {
     width: 70px;
     height: 70px; }
-  .rrss-instagram {
+  footer .seccionrrss .rrss-instagram {
     width: 70px;
     height: 70px; }
-  .rrss-twitter {
+  footer .seccionrrss .rrss-twitter {
     width: 70px;
     height: 70px; }
   .contenedor-grid-equipo div {
@@ -639,6 +642,7 @@ footer .seccionrrss {
   .primer-contenedor-artistas div {
     width: 300px;
     height: 400px;
-    font-size: 20px; }
+    font-size: 20px;
+    text-align: center; }
   .primer-contenedor-artistas {
     flex-direction: column; } }

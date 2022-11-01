@@ -13,11 +13,10 @@ main{
         height: 700px;
         width: 100%;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size:50px;
+        font-size: 50px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/logo-gochomusic-blanco-sin-fondo.png");
         background-size: 100%;
         background-color: $color-principal;
-        background-image: linear-gradient();
         flex-direction: column;
         border: solid black;
         h1{
