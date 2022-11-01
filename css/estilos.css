@@ -613,7 +613,7 @@ footer .seccionrrss {
     margin-right: 0%; } }
 
 @media screen and (max-width: 500px) {
-  .barraDe {
+  header nav .barraDe {
     flex-direction: column;
     background-color: black; }
   main .primer-titulo {
