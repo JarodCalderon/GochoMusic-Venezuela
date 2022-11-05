@@ -18,10 +18,13 @@
         text-align: center;
         width: 70%;
         height: 80%;
-        background-color: $color-secundario;
-        color: $color-terciario;
-        font-size: 65px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         background-size: cover;
-        }
-}
+        h5{
+            color: $color-terciario;
+            font-size: 65px;
+            background-color: rgba(0, 0, 0, 0.596);
+            width: 100%;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }    
+    }

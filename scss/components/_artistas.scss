@@ -27,6 +27,7 @@
         grid-area: art1;
         @extend %contenedor-de-artistas;
         background-size: 100%;
+        text-align: center;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sixtorein.png");
         background-image: linear-gradient();
     }

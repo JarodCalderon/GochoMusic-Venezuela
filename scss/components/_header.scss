@@ -33,7 +33,7 @@ header{
     width: 100%;
         .barraDe{
         padding-top: 1%;
-        top: 4%;
+        top: 5.4%;
         display: flex;
         position: fixed;
         width: 100%;
@@ -42,7 +42,7 @@ header{
         list-style: none;
         background-color: rgba(63, 74, 95, 0.322);
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 25px;
+        font-size: 23px;
         z-index: 1;
             li{
             &:hover{scale: 1.1;
