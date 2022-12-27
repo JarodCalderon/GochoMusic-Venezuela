@@ -328,7 +328,7 @@ main .wicon {
     display: flex;
     justify-content: flex-end; }
     .contenedor-demo .flex-formulario .formulario-contacto-demo {
-      height: 450px;
+      height: fit-content;
       border: solid white 4px;
       width: 70%;
       display: flex;

@@ -47,11 +47,14 @@
             <div class="contenedor-img-demo-2">
                 <div class="img-demo">
                     <h4>ENVÍANOS TU DEMO</h4>
+                    <p id="info"></p>
+                    <p id="info2"></p>
+                    <p id="info3"></p>
                     <p>Creemos en talentos nuevos. ¿Tienes el potencial y las ganas de ser escuchado en todo el país?.
                         <br> Evaluaremos la posibilidad de promocionarte.</p>
                 </div>
             </div>
-            <div class="img-demo-2">
+            <div class="img-demo-2 container-fluid">
                 <h5>SÓLO IMPORTA TU MÚSICA</h5>
                 <p>Nuestra empresa está enfocada en ofrecer productos en promoción de la mejor calidad, somos fieles creyentes que el talento importa más que todo <br> Si crees tener el talento no importa tu edad, género, físico o cualquier otra característica</p>
             </div>
@@ -61,20 +64,30 @@
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Ingresa tu correo
                                 electrónico</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
+                            <textarea type="email" class="form-control" id="email"
+                                placeholder="name@example.com"></textarea>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">¿Por qué quieres una promoción
-                                GOCHOMUSIC?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label for="exampleFormControlTextarea1" class="form-label">Nombre completo</label>
+                            <textarea class="form-control" id="nombrecompleto" ></textarea>
                         </div>
                         <div>
-                            <label for="formFileLg" class="form-label">Sube tu Demo aquí</label>
-                            <input class="form-control form-control-lg" id="formFileLg" type="file">
+                            <label for="exampleFormControlTextarea1" class="form-label">Telefono</label>
+                            <textarea class="form-control" id="telefono" ></textarea>
                         </div>
-                </div>
+                        <div>
+                            <label for="exampleFormControlTextarea1" class="form-label">¿Cuantos temas?</label>
+                            <textarea class="form-control" id="cTemas" placeholder="Maximo 3 (para promocionar mas temas ponte en contacto con el equipo)"></textarea>
+                        </div>
+                        <button class="button" onclick="demo()">Enviar</button>
+                        
+                        <p id="precio"></p>
+                        <p id="presupuesto"></p>
+
+                    </div>
             </section>
+
+
         <a target="_blank" class="wicon"
             href="https://api.whatsapp.com/send/?phone=5492215137609&text&type=phone_number&app_absent=0"> <svg
                 xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="64"
