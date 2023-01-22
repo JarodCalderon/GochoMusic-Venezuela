@@ -1,11 +1,11 @@
 function demo() {
     const Data = class {
         constructor(email, nombrecompleto, telefono, temas) {
-          this.email = email;
-          this.nombrecompleto = nombrecompleto;
-          this.telefono = telefono;
-          this.temas = temas;
-          this.precio = 200;
+            this.email = email;
+            this.nombrecompleto = nombrecompleto;
+            this.telefono = telefono;
+            this.temas = temas;
+            this.precio = 200;
         }
 
         get price() {
@@ -13,7 +13,7 @@ function demo() {
         }
 
         calcPrice() {
-        return this.temas * this.precio;
+            return this.temas * this.precio;
         }
     };
 
@@ -37,16 +37,16 @@ function demo() {
                 background: "linear-gradient(to right, #cb3234, #ff0000)",
             },
             offset: {
-                x: 50, 
+                x: 50,
                 y: 50
-              },
-            }).showToast();
+            },
+        }).showToast();
         return 0;
     }
 
     localStorage.setItem("telefono", telefono);
 
-    let temas =+ document.getElementById("cTemas").value;
+    let temas = + document.getElementById("cTemas").value;
 
     const informacion = new Data(email, nombrecompleto, telefono, temas);
 
@@ -88,7 +88,7 @@ function demo() {
                 let img = createNode('img');
                 let span = createNode('span');
                 img.src = author.picture.medium;
-                span.innerHTML = `${ author.name.first } ${ author.name.last }`;
+                span.innerHTML = `${author.name.first} ${author.name.last}`;
                 append(li, img);
                 append(li, span);
                 append(ul, li);
